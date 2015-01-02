@@ -2,9 +2,9 @@ require 'formula'
 
 class PkgsrcBootstrap < Formula
   homepage 'http://www.pkgsrc.org'
-  url 'http://ftp.netbsd.org/pub/pkgsrc/stable/pkgsrc-2013Q4.tar.bz2'
-  version '2013Q4'
-  sha1 '83242446bf3e84ea0191185b8952895e0c9d5809'
+  url 'http://ftp.netbsd.org/pub/pkgsrc/stable/pkgsrc-2014Q4.tar.bz2'
+  version '2014Q4'
+  sha1 '43877bd74974609ef3c4a184246e2e52575412db'
 
   def install
     ENV.deparallelize
