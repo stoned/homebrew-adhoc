@@ -16,7 +16,7 @@ class Vilearn < Formula
   url 'http://ftp.NetBSD.org/pub/pkgsrc/distfiles/vilearn-1.0.shar.Z',
       :using => VilearnHttpDownloadStrategy
   version '1.0'
-  sha1 '08aed424df46f30c93c604f3dc79d2affe1ec70e'
+  sha256 '6c3662b1598bd830bc746fc42a2b28849ace2f69464231cbcf3b22ee4b8e3d2e'
 
   def install
     inreplace "vilearn.sh", ':TUTORIALS:', "#{prefix}/share/vilearn"
